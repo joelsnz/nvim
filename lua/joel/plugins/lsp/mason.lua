@@ -30,6 +30,8 @@ return {
 			ensure_installed = {
 				"lua_ls",
 				"pyright",
+				"arduino_language_server",
+				"clangd",
 			},
 			-- auto-install configured servers (with lspconfig)
 			automatic_installation = true, -- not the same as ensure_installed
